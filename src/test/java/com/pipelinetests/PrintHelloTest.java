@@ -17,7 +17,7 @@ public class PrintHelloTest {
 	
 	@Test
 	public void printHelloTest() {
-		Assert.assertTrue(printHello.printHello().equals("Hello there!!"), "[ASSERT FAILED]");
+		Assert.assertTrue(printHello.printHello().equals("Hello there!"), "[ASSERT FAILED]");
 	}
 
 }
